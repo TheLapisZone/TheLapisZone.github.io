@@ -15,7 +15,7 @@ body {
 }
 
 div.EditIcon{
-  position: relative;
+  position: absolute;
   top: 300px;
   right: 1200;
   width: 200px;
