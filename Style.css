@@ -1,7 +1,7 @@
 div.home {
   	display: flex;
-	margin: 25%;
-	align-items: center;
+	margin: 15%;
+	align-items: left;
 }
 
 @font-face {
