@@ -18,36 +18,47 @@ body {
 
 div.EditIcon{
 
-  display: flex;
-  place-items: center;
+  top: 300px;
+  right: 1200;
+  width: 200px;
+  height: 100px;
 
 
 }
 
 div.ContactIcon{
   
- display: flex;
-  place-items: center;
+  top: 300px;
+  right: 800;
+  width: 200px;
+  height: 100px;
 }
 
 div.OtherIcon{
 	
-display: flex;
-  place-items: center;
+  top: 300px;
+  right: 400;
+  width: 200px;
+  height: 100px;
 
 }
 
 
 div.ArtIcon{
 
-  display: flex;
-  place-items: center;
+  position: absolute;
+  top: 600px;
+  right: 950;
+  width: 200px;
+  height: 100px;
 }
 
 div.PhotoIcon{
 
-display: flex;
-  place-items: center;
+  top: 600px;
+  right: 550;
+  width: 200px;
+  height: 100px;
 }
 
 div.Corner {
