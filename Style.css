@@ -1,0 +1,90 @@
+@font-face {
+  font-family: StarryStitch;
+  src: url(Images/starry_stitch.ttf);
+}
+
+h1 {
+	font-size: 80px;
+	color: #ffffff;
+	font-family: StarryStitch;
+}
+
+body {
+ background-image: url("Images/289235.gif");
+ background-color: #cccccc;	
+}
+
+div.EditIcon{
+  position: absolute;
+  top: 300px;
+  right: 1200;
+  width: 200px;
+  height: 100px;
+
+}
+
+div.ContactIcon{
+  position: absolute;
+  top: 300px;
+  right: 800;
+  width: 200px;
+  height: 100px;
+}
+
+div.OtherIcon{
+  position: absolute;
+  top: 300px;
+  right: 400;
+  width: 200px;
+  height: 100px;
+
+}
+
+
+div.ArtIcon{
+ position: absolute;
+  top: 600px;
+  right: 950;
+  width: 200px;
+  height: 100px;
+}
+
+div.PhotoIcon{
+ position: absolute;
+  top: 600px;
+  right: 550;
+  width: 200px;
+  height: 100px;
+}
+
+div.Corner {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+div.tips{
+	position: absolute;
+	bottom: 8px;
+    left: 16px;
+	
+}
+
+div.socials{
+	position: absolute;
+	bottom: 8px;
+    left: 230px;
+	
+}
+
+div.socials2{
+	position: absolute;
+	bottom: 5px;
+    left: 300px;
+	
+}
+
+p{
+	font-size: 20px;
+	color: #ffffff;
+}

@@ -1,0 +1,121 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<title>The Lapis Zone</title>
+</head>
+
+<body>
+<center> <h1>Welcome to the Lapis Zone</h1> </center>
+
+<!-- Edit Icon-->
+<div class="EditIcon">
+<a href="EditPage.html">
+    <img src="Images/EditingIcon1.png"
+    onmouseover="this.src='Images/EditingIcon2.png'"
+    onmouseout="this.src='Images/EditingIcon1.png'"
+    alt="Hover Image"
+    style="width:300px;height:300px">
+	</a>
+
+<script>{
+  (() => {
+    (new Image).src = "Images/OtherIcon2.png";
+})();
+</script>
+</div>
+
+<!-- Contact Icon-->
+<div class="ContactIcon">
+	<a href="ContactMe.html">
+    <img src="Images/ContactIcon1.png"
+    onmouseover="this.src='Images/ContactIcon2.png'"
+    onmouseout="this.src='Images/ContactIcon1.png'"
+    alt="Hover Image"
+    style="width:300px;height:300px">
+	</a>
+
+<script>{
+  (() => {
+    (new Image).src = "Images/OtherIcon2.png";
+})();
+</script>
+</div>
+
+<!-- Random Page-->
+<div class = "OtherIcon"
+<img src="Images/RandomIcon3.png">
+<img src="Images/RandomIcon3.png" id="randomicon"
+	onmouseover="this.src='Images/RandomIcon4.png'"
+    onmouseout="this.src='Images/RandomIcon3.png'">
+<script>
+	const pages = [
+    "RandoPage1.html",   
+    "RandoPage3.html",
+	"RandoPage7.html"
+  ];
+
+  document.getElementById("randomicon").addEventListener("click", function() {
+    const randomPage = pages[Math.floor(Math.random() * pages.length)];
+    window.location.href = randomPage;
+  });
+</script>
+</div>
+
+<!-- Art Icon-->
+<div class="ArtIcon">
+	<a href="ArtPage.html">
+    <img src="Images/ArtIcon1.png"
+    onmouseover="this.src='Images/ArtIcon3.png'"
+    onmouseout="this.src='Images/ArtIcon1.png'"
+    alt="Hover Image"
+    style="width:300px;height:300px">
+	</a>
+
+<script>{
+  (() => {
+    (new Image).src = "Images/OtherIcon2.png";
+})();
+</script>
+</div>
+
+<!-- Photo Icon-->
+<div class="PhotoIcon">
+<a href="PhotosPage.html">
+    <img src="Images/PhotosIcon1.png"
+    onmouseover="this.src='Images/PhotosIcon2.png'"
+    onmouseout="this.src='Images/PhotosIcon1.png'"
+    alt="Hover Image"
+    style="width:300px;height:300px">
+	</a>
+
+<script>{
+  (() => {
+    (new Image).src = "Images/OtherIcon2.png";
+})();
+</script>
+</div>
+
+<div class="Corner">
+<img src="Images/LainDancingSmall.gif" alt="she movin">
+</div>
+
+<div class ="tips">
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'> </script>
+<script type='text/javascript'>kofiwidget2.init('Buy me some Taco Bell', '#300166', 'X0B124H8XP');kofiwidget2.draw();</script> 
+</div>
+
+<div class = "socials">
+<a href="https://x.com/lapisremix">
+<img src="Images/twitlogo.png"
+ </a>
+</div>
+
+<div class = "socials2">
+<a href="https://bsky.app/profile/lapisremix.bsky.social">
+<img src="Images/bskylogo.png"
+ </a>
+</div>
+
+</body>
+</html>

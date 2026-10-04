@@ -1,0 +1,29 @@
+@font-face {
+  font-family: StarryStitch;
+  src: url(Images/starry_stitch.ttf);
+}
+
+h1 {
+	font-size: 80px;
+	color: #ffffff;
+	font-family: StarryStitch;
+}
+
+body {
+ background-image: url("Images/255161.gif");
+ background-color: #cccccc;
+ color: #ffffff
+ 
+}
+
+p {
+	
+	font-size: 35px;
+	text-shadow: 15px 15px 15px rgba(50, 40, 100, 50);
+}
+div.BackHome{
+	
+	position: absolute; 
+	left: 75x;
+	top: 5px;
+}

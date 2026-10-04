@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<title>The Lapis Zone</title>
+</head>
+
+<body>
+<center> <h1></h1> </center>
+
+<center> <img src="randomsites/jumpscares/freddy.gif" id="myImage" width="1080 height="720"> </center>
+<script>
+
+const  jumpscare= [
+    
+    "randomsites/jumpscares/freddy.gif",
+    "randomsites/jumpscares/foxy.gif",
+    "randomsites/jumpscares/funtimefreddy.gif",
+	"randomsites/jumpscares/toybon.gif",
+	"randomsites/jumpscares/funtimefreddy.gif",
+	"randomsites/jumpscares/ennard.gif",
+  ];
+  
+  
+  const randomScare = jumpscare[Math.floor(Math.random() * jumpscare.length)];
+  document.getElementById("myImage").src = randomScare; 
+
+
+</script>
+
+</body>
+</html>
