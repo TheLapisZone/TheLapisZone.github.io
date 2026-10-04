@@ -23,7 +23,7 @@ body {
 }
 
 div.EditIcon{
-  position: absolute;
+  position: relative;
   top: 300px;
   right: 1200;
   width: auto;
@@ -32,7 +32,7 @@ div.EditIcon{
 }
 
 div.ContactIcon{
-  position: absolute;
+  position: relative;
   top: 300px;
   right: 800;
   width: auto;
@@ -40,7 +40,7 @@ div.ContactIcon{
 }
 
 div.OtherIcon{
-  position: absolute;
+  position: relative;
   top: 300px;
   right: 400;
   width: auto;
@@ -50,7 +50,7 @@ div.OtherIcon{
 
 
 div.ArtIcon{
- position: absolute;
+ position: relative;
   top: 600px;
   right: 950;
   width: auto;
@@ -58,7 +58,7 @@ div.ArtIcon{
 }
 
 div.PhotoIcon{
- position: absolute;
+ position: relative;
   top: 600px;
   right: 550;
   width: auto;
@@ -66,27 +66,27 @@ div.PhotoIcon{
 }
 
 div.Corner {
-  position: absolute;
+  position: relative;
   bottom: 8px;
   right: 16px;
 }
 
 div.tips{
-	position: absolute;
+	position: relative;
 	bottom: 8px;
     left: 16px;
 	
 }
 
 div.socials{
-	position: absolute;
+	position: relative;
 	bottom: 8px;
     left: 230px;
 	
 }
 
 div.socials2{
-	position: absolute;
+	position: relative;
 	bottom: 5px;
     left: 300px;
 	
