@@ -1,9 +1,7 @@
 div.home {
   	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 50%;
 	
+	align-items: center;
 }
 
 @font-face {
