@@ -24,7 +24,7 @@ body {
 
 
 div.Corner {
-  position: absolite;
+  position: absolute;
   bottom: 8px;
   right: 16px;
 }
