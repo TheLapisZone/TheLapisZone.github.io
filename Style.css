@@ -1,6 +1,6 @@
 div.home {
   	display: flex;
-	top: 50%;
+	margin: 50%;
 	align-items: center;
 }
 
