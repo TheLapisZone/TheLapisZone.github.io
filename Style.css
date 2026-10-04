@@ -3,14 +3,6 @@
   src: url(Images/starry_stitch.ttf);
 }
 
-.wrapper {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-}       
-
 h1 {
 	font-size: 80px;
 	color: #ffffff;
@@ -23,70 +15,70 @@ body {
 }
 
 div.EditIcon{
-  position: relative;
+  position: absolute;
   top: 300px;
   right: 1200;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 100px;
 
 }
 
 div.ContactIcon{
-  position: relative;
+  position: absolute;
   top: 300px;
   right: 800;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 100px;
 }
 
 div.OtherIcon{
-  position: relative;
+  position: absolute;
   top: 300px;
   right: 400;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 100px;
 
 }
 
 
 div.ArtIcon{
- position: relative;
+ position: absolute;
   top: 600px;
   right: 950;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 100px;
 }
 
 div.PhotoIcon{
- position: relative;
+ position: absolute;
   top: 600px;
   right: 550;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 100px;
 }
 
 div.Corner {
-  position: relative;
+  position: absolute;
   bottom: 8px;
   right: 16px;
 }
 
 div.tips{
-	position: relative;
+	position: absolute;
 	bottom: 8px;
     left: 16px;
 	
 }
 
 div.socials{
-	position: relative;
+	position: absolute;
 	bottom: 8px;
     left: 230px;
 	
 }
 
 div.socials2{
-	position: relative;
+	position: absolute;
 	bottom: 5px;
     left: 300px;
 	
