@@ -11,10 +11,25 @@
 <center> 
 <h1>The Darkroom</h1> 
 </center> 
-
-<center>
-<img src="Images/Mahiru/m1.png" alt="Mahiru" id="mahiru">
-</center>
+  
+<script>
+  
+<center> <img src="Images/Mahiru/m1.png" alt="Mahiru" id="mahiru"> </center>
+  const  mahirus= [
+  "Images/Mahiru/m1.png",
+  "Images/Mahiru/m2.png",
+  "Images/Mahiru/m3.png",
+  "Images/Mahiru/m4.png",
+  "Images/Mahiru/m5.png",
+  "Images/Mahiru/m6.png",
+  "Images/Mahiru/m7.png",
+  "Images/Mahiru/m8.png",
+  "Images/Mahiru/m9.png",
+  ];
+  const randomMahiru = mahirus[Math.floor(Math.random() * mahirus.length)];
+  document.getElementById("mahiru").src = randomMahiru; 
+  
+</script>
   
 <div class="BackHome">
 <a href="index.html">
