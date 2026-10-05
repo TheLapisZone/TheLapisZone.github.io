@@ -4,6 +4,11 @@ div.home {
 	align-items: left;
 }
 
+div.hometwo {
+  	display: flex;
+	align-items: center;
+}
+
 @font-face {
   font-family: StarryStitch;
   src: url(Images/starry_stitch.ttf);
