@@ -3,6 +3,15 @@
   src: url(Images/starry_stitch.ttf);
 }
 
+div.heading{
+	justify-content: center;
+}
+
+.mahiru{
+	width: auto;
+	height: auto;
+}
+
 h1 {
 	font-size: 80px;
 	color: #ffffff;
