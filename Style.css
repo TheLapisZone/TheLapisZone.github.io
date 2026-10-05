@@ -1,13 +1,13 @@
 div.home {
   	display: flex;
-	margin: 0%;
-	align-items: left;
+	margin: 5%;
+	align-items: center;
 }
 
 div.hometwo {
   	display: flex;
 	
-	align-items: left;
+	align-items: center;
 }
 
 @font-face {
