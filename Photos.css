@@ -3,6 +3,10 @@
   src: url(Images/starry_stitch.ttf);
 }
 
+.heading{
+	justify-content: center;
+}
+
 h1 {
 	font-size: 80px;
 	color: #ffffff;
