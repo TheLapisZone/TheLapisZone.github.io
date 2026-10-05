@@ -1,12 +1,12 @@
 div.home {
   	display: flex;
-	margin: 25%;
+	margin: 10%;
 	align-items: center;
 }
 
 div.hometwo {
   	display: flex;
-	margin: 25%;
+	margin: 5%;
 	align-items: center;
 }
 
