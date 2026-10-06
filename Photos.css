@@ -22,7 +22,7 @@ div.BackHome{
 
 div.gallery {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: flex-start;
 }
 
