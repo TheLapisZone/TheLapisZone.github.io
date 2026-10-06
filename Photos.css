@@ -15,7 +15,6 @@ body {
 
 div.gallery {
   border: 5px solid #ffffff;
-  display: flex;
 }
 
 div.gallery:hover {
