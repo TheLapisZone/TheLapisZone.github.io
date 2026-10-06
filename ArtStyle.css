@@ -58,7 +58,7 @@ div.desc {
 
 .clearfix:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
