@@ -36,7 +36,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 5 5px;
+  padding: 1 1px;
   float: left;
   width: 24.99999%;
   height: 25%;
@@ -47,7 +47,7 @@ div.desc {
   .responsive {
     width: 49.9%;
 	height: 25%;
-    margin: 5px 5;
+    margin: 1px 1;
   }
 }
 
