@@ -29,7 +29,7 @@ div.gallery {
 div.gallery-item {
   margin: 5px;
   border: 1px solid #ccc;
-  width: 180px;
+  width: 360px;
 }
 
 div.gallery-item:hover {
