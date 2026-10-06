@@ -28,7 +28,6 @@ div.gallery {
 
 div.gallery-item {
   margin: 5px;
-  border: 1px solid #ccc;
   width: auto;
 }
 
@@ -37,8 +36,8 @@ div.gallery-item:hover {
 }
 
 div.gallery-item img {
-  width: auto;
-  height: auto;
+  width: 640px;
+  height: 360px;
 }
 
 div.gallery-item div.desc {
