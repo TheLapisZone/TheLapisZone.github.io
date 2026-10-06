@@ -15,6 +15,7 @@ body {
 
 div.gallery {
   border: 5px solid #ffffff;
+  display: flex;
 }
 
 div.gallery:hover {
@@ -24,7 +25,6 @@ div.gallery:hover {
 div.gallery img {
   width: 101%;
   height: auto;
-display: flex;
 }
 
 div.desc {
