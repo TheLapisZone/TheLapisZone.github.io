@@ -20,7 +20,7 @@ div.BackHome{
 	top: 5px;
 }
 
-#images-wrapper {    
+.images-wrapper {    
    line-height: 0;       
     -webkit-column-count: 5;    
     -webkit-column-gap: 0px;    
@@ -29,7 +29,7 @@ div.BackHome{
      column-count: 5;    
      column-gap: 0px;    
 }  
-#images-wrapper img {    
+.images-wrapper img {    
    width: 100% !important;    
    height: auto !important;  
 }  
