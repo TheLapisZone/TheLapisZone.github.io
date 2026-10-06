@@ -37,7 +37,7 @@ div.desc {
 
 .responsive {
   padding: 1 1px;
-
+  float: center;
   width: 24.99999%;
   color: #ffffff;
 }
