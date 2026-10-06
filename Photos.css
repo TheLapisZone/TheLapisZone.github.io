@@ -8,25 +8,20 @@ h1 {
 	color: #ffffff;
 	font-family: StarryStitch;
 }
-
 body {
- background-image: url("Images/289235.gif");
- background-color: #cccccc;	
+ background-image: url("Images/255161.gif");
 }
 
 div.gallery {
-  border: 5px solid #ffffff;
   border: 1px solid #ffffff;
 }
 
 div.gallery:hover {
-  border: 5px solid #ffffff;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
 }
 
 div.gallery img {
   width: 100%;
-  height: 50%;
 }
 
 div.desc {
@@ -40,25 +35,22 @@ div.desc {
 }
 
 .responsive {
-  padding: 5 5px;
+  padding: 1 1px;
   float: left;
   width: 24.99999%;
-  height: 25%;
   color: #ffffff;
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.9%;
-	height: 50%;
-    margin: 5px 5;
+    margin: 1px 1;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
-	height: 100%;
   }
 }
 
@@ -69,7 +61,7 @@ div.desc {
 }
 
 div.BackHome{
-
+	
 	position: absolute; 
 	left: 75x;
 	top: 5px;
