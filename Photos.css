@@ -56,12 +56,6 @@ div.desc {
   }
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 div.BackHome{
 	
 	position: absolute; 
