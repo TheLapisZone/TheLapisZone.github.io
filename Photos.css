@@ -8,21 +8,22 @@ h1 {
 	color: #ffffff;
 	font-family: StarryStitch;
 }
+
 body {
  background-image: url("Images/255161.gif");
- background-color: #cccccc;
 }
 
 div.gallery {
-  border: 1px solid #ffffff;
+  border: 5px solid #ffffff;
 }
 
 div.gallery:hover {
-  border: 2px solid #ffffff;
+  border: 5px solid #ffffff;
 }
 
 div.gallery img {
-  width: 100%;
+  width: 101%;
+  height: auto;
 }
 
 div.desc {
@@ -36,7 +37,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 1 1px;
+  padding: 5 10px;
   float: left;
   width: 24.99999%;
   color: #ffffff;
@@ -44,8 +45,8 @@ div.desc {
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.9%;
-    margin: 1px 1;
+    width: 49.99999%;
+    margin: 5px 5;
   }
 }
 
