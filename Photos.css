@@ -33,7 +33,7 @@ div.BackHome{
    width: 100% !important;    
    height: auto !important;  
 }  
-#images-wrapper{    
+.images-wrapper{    
    display:inline-block;    
    margin-right: auto;    
    margin-left: auto;  
