@@ -36,7 +36,7 @@ div.gallery-item:hover {
 }
 
 div.gallery-item img {
-  width: 180px;
+  width: auto;
   height: auto;
 }
 
