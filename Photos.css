@@ -13,11 +13,11 @@ body {
 }
 
 div.gallery {
-  border: 5px solid #ffffff;
+  border: 1px solid #ffffff;
 }
 
 div.gallery:hover {
-  border: 5px solid #ffffff;
+  border: 1px solid #ffffff;
 }
 
 div.gallery img {
