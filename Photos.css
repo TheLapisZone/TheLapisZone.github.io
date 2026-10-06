@@ -22,7 +22,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 101%;
-  height: 50%;
+  height: auto;
 }
 
 div.desc {
