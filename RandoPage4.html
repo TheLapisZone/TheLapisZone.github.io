@@ -31,10 +31,11 @@
   "https://www.youtube.com/embed/XZQVUFJrJ4M?si=UBYGB4rS3hK6q4pk", //Demolition Inevitable
   ];
 
+  const randomSong = songofday[Math.floor(Math.random() * songofday.length)];
+  
   setInterval(function() {
   const newday = new Date();
   if (newday.getHours() === 0) { // Check if it's midnight
-    const randomSong = songofday[Math.floor(Math.random() * songofday.length)];
     document.getElementById("song").src = randomSong; 
   }
 }, 3600000);
