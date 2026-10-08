@@ -10,6 +10,13 @@ div.hometwo {
 	justify-content: center;
 }
 
+div.BackHome{
+	
+	position: absolute; 
+	left: 75x;
+	top: 5px;
+}
+
 @font-face {
   font-family: StarryStitch;
   src: url(Images/starry_stitch.ttf);
