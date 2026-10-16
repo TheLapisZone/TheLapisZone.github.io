@@ -42,23 +42,30 @@ div.Corner {
 }
 
 div.tips{
-	position: absolute; 
+	
 	bottom: 8px;
     left: 16px;
 	
 }
 
 div.socials{
-	position: absolute; 
+	
 	bottom: 8px;
     left: 230px;
 	
 }
 
 div.socials2{
-	position: absolute; 
+	
 	bottom: 5px;
     left: 300px;
+	
+}
+
+div.socials3{
+	
+	bottom: 5px;
+    left: 370px;
 	
 }
 
