@@ -31,6 +31,7 @@ h1 {
 body {
  background-image: url("Images/289235.gif");
  background-color: #cccccc;	
+ cursor: url("cursor.png"), auto;
 }
 
 div.Corner {
