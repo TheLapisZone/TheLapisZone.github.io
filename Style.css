@@ -38,11 +38,11 @@ body {
 div.Corner {
   position: absolute;
   bottom: 8px;
-  left: 28px;
+  right: 16px;
 }
 
 div.tips{
-	position: absolute;
+	
 	bottom: 4px;
     left: 16px;
 	
