@@ -33,8 +33,6 @@ body {
  background-color: #cccccc;	
 }
 
-
-
 div.Corner {
   position: absolute;
   bottom: 8px;
@@ -47,8 +45,6 @@ div.tips{
     left: 16px;
 	
 }
-
-
 
 p{
 	font-size: 20px;
