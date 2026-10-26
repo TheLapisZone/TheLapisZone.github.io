@@ -37,14 +37,14 @@ body {
 
 div.Corner {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 16px;
+  left: 16px;
 }
 
 div.tips{
 	
-	bottom: 2px;
-    left: 20px;
+	bottom: 4px;
+    left: 16px;
 	
 }
 
